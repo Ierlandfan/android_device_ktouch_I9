@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_i9.mk
+    $(LOCAL_DIR)/Lineage_I9-MT6580.mk
