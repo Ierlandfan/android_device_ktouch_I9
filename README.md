@@ -1,12 +1,12 @@
-Device configuration for K-touch i9
+Device configuration for K-touch I9 (MT6580 SoC version)
 ====================================
 
-K-touch i9 is an unlockable ultra-mini phone on a MT6739 SoC produced by K-touch, a Chinese phone manufacturer. There is no official codename for this phone, so everything in this repository is just named "i9".
+K-touch I9 is an unlockable ultra-mini phone on a MT6739 OR MT6580 SoC produced by K-touch, a Chinese phone manufacturer. There is no official codename for this phone, so everything in this repository is just named "I9_MT6580".
 
 Basic   | Spec Sheet
 -------:|:-------------------
 CPU     | Quad-core 1.5 GHz Cortex-A53
-Chipset | Mediatek MT6739
+Chipset | Mediatek MT6580
 GPU     | 570MHz PowerVR GE8100
 Memory  | 2 GB
 Shipped Android Version | 8.1 (O-MR1)
