@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=i9
+DEVICE=I9-MT6580
 VENDOR=ktouch
 
 # Load extract_utils and do some sanity checks
