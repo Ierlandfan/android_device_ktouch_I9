@@ -18,14 +18,12 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/ktouch/i9/i9-vendor.mk)
+$(call inherit-product-if-exists, vendor/ktouch_I9_MT6580/I9_MT6580_vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
-
-include vendor/mediatek/hardware/telephony-ext/overlay.mk
 
 # A/B
 AB_OTA_UPDATER := false
@@ -41,17 +39,13 @@ PRODUCT_PACKAGES += \
 
 # Fstab
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6739:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6739
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6580:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6580
 
 # Init
 PRODUCT_PACKAGES += \
-    init.mt6739.rc \
-    init.wifi.mt6739.sh \
+    init.mt6580.rc \
+    init.wifi.mt6580.sh \
     fstab.enableswap
-
-# Media
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_mediatek_video.xml
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -59,8 +53,7 @@ PRODUCT_COPY_FILES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    telephony-ext \
-    mtk-telephony-ext
+    telephony-ext
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
