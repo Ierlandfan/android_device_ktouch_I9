@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/KTouch_I9_MT6580
+DEVICE_PATH := device/ktouch/I9
 
 BOARD_VENDOR := ktouch
 
@@ -13,7 +13,7 @@ BOARD_VENDOR := ktouch
 TARGET_FLATTEN_APEX := true
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := I9-MT6580
+TARGET_OTA_ASSERT_DEVICE := ktouch-I9
 
 # Architecture
 #For 32bit Mt6580
@@ -95,4 +95,4 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 27
 TARGET_CUSTOM_LDCONFIG_TEMPLATE_27 := $(DEVICE_PATH)/configs/ld.config.txt
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
--include vendor/ktouch/I9-MT6580/BoardConfigVendor.mk
+-include vendor/ktouch/I9/BoardConfigVendor.mk
