@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/ktouch_I9_MT6580/I9_MT6580_vendor.mk)
+$(call inherit-product-if-exists, vendor/ktouch/I9/I9_vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
