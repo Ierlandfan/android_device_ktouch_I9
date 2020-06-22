@@ -6,3 +6,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_I9.mk
+COMMON_LUNCH_CHOICES:= lineage_ktouch_I9-userdebug
