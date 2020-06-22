@@ -9,7 +9,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from k-touch I9 device
-$(call inherit-product, device/ktouch_I9_MT6580/device.mk)
+$(call inherit-product, device/ktouch/I9/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
