@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),I9-MT6580)
+ifeq ($(TARGET_DEVICE),I9)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
