@@ -1,3 +1,5 @@
+You can substitute /mnt/external/for some other dir. I used /mnt/external because I had an external drive since it takes 100GB or so for a complete build.  
+
 sudo mkdir /mnt/external/lineage
 cd /mnt/external/lineage
 sudo repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
