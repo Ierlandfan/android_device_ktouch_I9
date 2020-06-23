@@ -10,4 +10,6 @@ sudo nano roomservice.xml --//copy contents of roomservice.xml into this new fil
 sudo chown -R username.username /mnt/external/
 source build/envsetup.sh
 repo sync
-lunch
+lunch ( In my case it's 12. lineage_ktouch_I9-userdebug so choose 12, otherwise choose corresponding number )
+breakfast ( In my case it's 12. lineage_ktouch_I9-userdebug so choose 12, otherwise choose corresponding number )
+ 
