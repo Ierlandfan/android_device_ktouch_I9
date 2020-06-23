@@ -1,0 +1,11 @@
+sudo mkdir /mnt/external/lineage
+cd /mnt/external/lineage
+sudo repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
+sudo repo sync
+cd /mnt/external/lineage/.repo
+sudo mkdir local_manifests
+sudo nano roomservice.xml --//copy contents of roomservice.xml into this new file OR cp roomservice.xml  /mnt/external/.repo/local_manifests
+sudo chown -R username.username /mnt/external/
+source build/envsetup.sh
+repo sync
+lunch
