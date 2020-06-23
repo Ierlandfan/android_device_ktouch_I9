@@ -26,7 +26,7 @@ TARGET_CPU_VARIANT:= cortex-a7
 TARGET_CPU_SMP := true
 
 # Set Build date
-BUILD_NUMBER := $(shell date +%s)
+#BUILD_NUMBER := $(shell date +%s)
 
 TARGET_USES_64_BIT_BINDER := true
 
