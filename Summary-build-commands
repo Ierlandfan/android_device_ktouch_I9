@@ -12,4 +12,6 @@ source build/envsetup.sh
 repo sync
 lunch ( In my case it's 12. lineage_ktouch_I9-userdebug so choose 12, otherwise choose corresponding number )
 breakfast ( In my case it's 12. lineage_ktouch_I9-userdebug so choose 12, otherwise choose corresponding number )
+brunch ( In my case it's 12. lineage_ktouch_I9-userdebug so choose 12, otherwise choose corresponding number )
+ 
  
